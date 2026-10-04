@@ -86,13 +86,16 @@ fix/456-courte-description
 ```
 
 - Conventional Commits ; scope facultatif mais utile ;
+- avant chaque commit non-WIP, appliquer le contrôle falsifiable et les règles de preuve de `docs/agents/evidence.md` ;
 - PR requise pour STANDARD et HIGH-RISK ;
 - titre de PR compatible Conventional Commits ;
-- description : What, Why, Verification, Risks, lien vers l’issue ;
+- description : utiliser `.github/pull_request_template.md` et séparer preuves locales, CI, distantes et humaines ;
 - squash merge par défaut ;
 - branche `main` protégée avec PR et checks requis.
 
 ## 5. Verification Harness
+
+Les commandes ci-dessous prouvent la couche locale. Elles ne remplacent ni les checks CI, ni le preflight et les contrôles distants définis dans `docs/agents/evidence.md`.
 
 ```bash
 # Rapide : contrôles ciblés, idéalement moins de quelques minutes

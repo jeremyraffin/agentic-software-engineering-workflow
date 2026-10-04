@@ -11,7 +11,7 @@ Une phase se termine uniquement lorsque son critère de sortie est observable. A
 3. les décisions ouvertes, risques et éléments hors périmètre ;
 4. la prochaine phase et le rôle attendu.
 
-Le rôle suivant vérifie ce handoff avant d’agir. Une entrée manquante renvoie la tâche à la phase précédente ; elle n’est pas complétée par supposition. Avant l’ouverture d’une PR, un human gate est matérialisé dans l’issue. Dès qu’une PR existe, les reviews et validations humaines STANDARD ou HIGH-RISK sont enregistrées dans cette PR.
+Le rôle suivant vérifie ce handoff avant d’agir. Une entrée manquante renvoie la tâche à la phase précédente ; elle n’est pas complétée par supposition. Avant l’ouverture d’une PR, un human gate est matérialisé dans la demande ou l’issue qui porte la tâche. Dès qu’une PR existe, les preuves, reviews et validations humaines suivent `evidence.md`, et toute décision antérieure durable y est transcrite.
 
 ## Carte des phases
 
@@ -56,7 +56,7 @@ Le bootstrap suit une séquence explicite :
 
 1. Product / Spec produit le plan et obtient son adoption humaine.
 2. L’agent de bootstrap implémente uniquement ce plan et conserve `BOOTSTRAP_REQUIRED`.
-3. Implementation exécute le harness ; Code Review publie son rapport, complété par Security Review si la surface le justifie.
+3. Implementation exécute le harness et complète la matrice locale, CI et distante de `evidence.md` ; Code Review publie son rapport, complété par Security Review si la surface le justifie.
 4. Implementation traite les findings puis repasse par Verification et Review.
 5. L’humain autorise explicitement le retrait de `BOOTSTRAP_REQUIRED`.
 6. L’agent de bootstrap retire le verrou dans un dernier changement ciblé et réexécute la vérification pertinente.

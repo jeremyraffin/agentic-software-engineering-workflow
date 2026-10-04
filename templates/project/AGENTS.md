@@ -8,6 +8,7 @@ Ce projet suit l’`Agentic Software Engineering Workflow v0.1`. Lire aussi :
 - `docs/agents/workflow.md` pour les règles propres au projet ;
 - `docs/agents/models.md` pour l’affectation des rôles ;
 - `docs/agents/phases.md` pour choisir la phase, son critère de sortie et le prochain rôle ;
+- `docs/agents/evidence.md` avant un commit non-WIP, une Review ou la clôture d’une PR ;
 - `docs/adr/` pour les décisions architecturales acceptées.
 
 ## 1. Classer avant d’agir

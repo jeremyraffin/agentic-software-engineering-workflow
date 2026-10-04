@@ -4,7 +4,7 @@ Workflow expérimental pour faire collaborer des agents de spécification, d’a
 
 ## Statut
 
-Version `v0.2.0`. Cette version intègre le premier retour d’expérience réel : transitions de phase explicites, preuves durables et clôture vérifiable.
+Version `v0.3.0`. Cette version ajoute l’auto-gouvernance du guide : release stable comme point fixe, séparation explicite des agents et handoffs entre outils.
 
 ## Principes
 

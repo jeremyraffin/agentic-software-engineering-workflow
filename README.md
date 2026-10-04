@@ -24,6 +24,7 @@ Le dossier [`templates/project`](templates/project) contient les fichiers à cop
 - `CLAUDE.md` : pointeur vers la source de vérité commune ;
 - `docs/agents/workflow.md` : adaptation du workflow au projet ;
 - `docs/agents/models.md` : rôles et affectation des modèles ;
+- `docs/agents/phases.md` : phases, critères de sortie et passages de relais ;
 - `docs/agents/issue-tracker.md` : conventions GitHub Issues ;
 - `docs/agents/triage-labels.md` : correspondance des labels de triage ;
 - `docs/agents/domain.md` : consommation des documents métier et ADR.
@@ -37,7 +38,7 @@ Les marqueurs `<À_ADAPTER>` sont intentionnels. Le bloc `BOOTSTRAP_REQUIRED` em
 3. Adapter l’issue tracker et les labels.
 4. Mener la discovery avec la skill user-invoked `$grill-with-docs`.
 5. Produire puis faire valider humainement la spec et le plan de bootstrap.
-6. Exécuter le bootstrap sans fonctionnalité produit.
+6. Suivre `docs/agents/phases.md` pour chaque changement de rôle et exécuter le bootstrap sans fonctionnalité produit.
 7. Remplacer les marqueurs `<À_ADAPTER>` seulement à partir de commandes et contraintes vérifiées.
 8. Retirer `BOOTSTRAP_REQUIRED` lorsque les critères du bootstrap sont satisfaits.
 

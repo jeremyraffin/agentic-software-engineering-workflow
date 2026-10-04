@@ -2,6 +2,14 @@
 
 ## Unreleased
 
+## v0.3.0 — 2026-10-04
+
+- faire gouverner chaque évolution du guide par la dernière release stable antérieure à la tâche ;
+- distinguer le SHA de gouvernance du SHA candidat soumis à review ;
+- rendre visibles les rôles, agents, modèles, points fixes et substitutions dans les issues et PR ;
+- formaliser le handoff manuel entre outils lorsque l’environnement prévu ne peut pas être lancé directement ;
+- conserver les règles de maintenance du guide séparées du template distribué.
+
 ## v0.2.0 — 2026-10-04
 
 - ajouter une carte des phases, critères de sortie et rôles conducteurs ;

@@ -4,7 +4,7 @@ Workflow expérimental pour faire collaborer des agents de spécification, d’a
 
 ## Statut
 
-Version `v0.1.0`. Cette version constitue la base initiale, avant intégration des retours d’expérience obtenus sur des projets réels.
+Version `v0.2.0`. Cette version intègre le premier retour d’expérience réel : transitions de phase explicites, preuves durables et clôture vérifiable.
 
 ## Principes
 

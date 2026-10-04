@@ -2,10 +2,12 @@
 
 ## Unreleased
 
+## v0.2.0 — 2026-10-04
+
 - ajouter une carte des phases, critères de sortie et rôles conducteurs ;
 - formaliser les handoffs et la boucle review-corrections ;
 - préciser les états et la séquence de retrait de `BOOTSTRAP_REQUIRED` ;
-- supprimer les cartes de workflow concurrentes des templates.
+- supprimer les cartes de workflow concurrentes des templates ;
 - distinguer les preuves locales, CI, distantes et humaines dans la clôture ;
 - exiger un contrôle adapté à chaque commit non-WIP et un preflight des services externes ;
 - fournir un gabarit de PR qui rend reviews et human gates durables ;

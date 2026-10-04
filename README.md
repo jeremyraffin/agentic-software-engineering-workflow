@@ -57,6 +57,14 @@ Ne commence aucune implémentation avant ma validation.
 
 Le guide référence cette skill sans la copier ni modifier son contenu. Si le client affiche les skills sous forme de pièces jointes, sélectionner `grill-with-docs` équivaut à écrire son nom dans la demande.
 
+## Faire évoluer ce guide
+
+Ce dépôt applique le workflow à sa propre maintenance. La dernière release stable gouverne la construction de la suivante, selon un point fixe enregistré avant le travail.
+
+[`AGENTS.md`](AGENTS.md) oriente vers la [gouvernance de maintenance](docs/maintenance/governance.md). Les [gabarits d’issue](.github/ISSUE_TEMPLATE/evolution.md) et de [PR](.github/pull_request_template.md) rendent visibles les rôles, agents/environnements, modèles et points fixes.
+
+Ces règles racine servent à maintenir le guide. Seul le contenu de `templates/project/` est destiné à être copié dans les projets utilisateurs.
+
 ## Retours d’expérience
 
 - [`docs/retours/0001-bootstrap-mon-garage-cars.md`](docs/retours/0001-bootstrap-mon-garage-cars.md) : lire pour comprendre les preuves ayant motivé les règles de bootstrap v0.2, sans reprendre la stack du projet comme défaut.

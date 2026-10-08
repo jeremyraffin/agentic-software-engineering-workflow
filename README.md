@@ -6,7 +6,7 @@ Le point central est le passage de relais : permettre à un agent qui ne partage
 
 ## Statut
 
-Expérimental et évolutif. Dernière release : `v0.3.0` (voir le [CHANGELOG](CHANGELOG.md)). Le guide est éprouvé sur un seul projet, [`mon-garage-cars`](https://github.com/jeremyraffin/mon-garage-cars), et chaque version intègre les [retours d’expérience](#retours-dexpérience) qu’il produit.
+Expérimental et évolutif. Dernière release : `v0.4.0` (voir le [CHANGELOG](CHANGELOG.md)). Le guide est éprouvé sur un seul projet, [`mon-garage-cars`](https://github.com/jeremyraffin/mon-garage-cars), et chaque version intègre les [retours d’expérience](#retours-dexpérience) qu’il produit.
 
 ## Principes
 

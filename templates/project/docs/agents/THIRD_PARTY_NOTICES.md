@@ -6,7 +6,9 @@ Les fichiers suivants de ce dossier sont adaptés de la skill `setup-matt-pocock
 - `issue-tracker.md` (variante GitHub) ;
 - `triage-labels.md`.
 
-Ils restent en anglais, comme leur source. Les skills elles-mêmes ne sont pas incluses dans ce guide : elles s’installent séparément et conservent leur propre licence.
+La section `Merge Danger` (`Door`, `Blast Radius`) de `.github/pull_request_template.md` reprend le format de la skill `pr` du même dépôt.
+
+Ces contenus restent en anglais, comme leur source. Les skills elles-mêmes ne sont pas incluses dans ce guide : elles s’installent séparément et conservent leur propre licence.
 
 ## Licence de la source
 

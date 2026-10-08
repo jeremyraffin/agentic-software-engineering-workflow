@@ -48,13 +48,13 @@ Une couche non applicable porte `N/A` avec sa raison. `Non vérifié` reste une 
 
 Le rapport publié contient au minimum :
 
-- l’identité du reviewer, son rôle et la raison de son indépendance ;
+- l’identité du reviewer, son environnement, son modèle effectif, son rôle et la raison de son indépendance ;
 - le point fixe ou la plage de diff examinée ;
 - la spec, les conventions et les résultats de vérification reçus ;
 - les axes couverts et les findings classés `BLOCKING`, `IMPORTANT` ou `SUGGESTION` ;
 - la disposition de chaque finding et, après correction, le nouveau point fixe revu.
 
-Un résumé de l’implémenteur ne remplace pas ce rapport. Le human gate est une décision humaine explicite dans la PR, distincte du rapport de review.
+Un résumé de l’implémenteur ne remplace pas ce rapport. Le human gate est une décision humaine explicite dans la PR, distincte du rapport de review. Le merge lui-même n’en tient pas lieu : la décision est publiée avant le merge, par un commentaire ou une approbation qui nomme le commit candidat.
 
 ## Ordre de clôture
 

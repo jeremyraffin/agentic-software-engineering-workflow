@@ -3,7 +3,7 @@
 > **État : `BOOTSTRAP_REQUIRED`**  
 > Tant que ce bloc est présent, ne pas commencer l’implémentation produit et ne jamais exécuter les placeholders `<À_ADAPTER>`. Le Product/Spec Agent peut mener le grill. Après validation humaine du plan, l’agent de bootstrap peut adapter les fichiers mais conserve ce bloc. Il le retire uniquement après vérification, review indépendante, traitement des findings et autorisation humaine explicite selon `docs/agents/phases.md`. Les autres agents ne modifient pas ce fichier.
 
-Ce projet suit l’`Agentic Software Engineering Workflow v0.1`. Lire aussi :
+Ce projet suit l’`Agentic Software Engineering Workflow <À_ADAPTER: tag de la release copiée, par exemple v0.3.0>`. La matrice d’affectation des modèles possède sa propre version (`docs/agents/models.md`) : les deux versions sont indépendantes. Lire aussi :
 
 - `docs/agents/workflow.md` pour les règles propres au projet ;
 - `docs/agents/models.md` pour l’affectation des rôles ;

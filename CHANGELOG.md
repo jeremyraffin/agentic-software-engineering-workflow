@@ -2,6 +2,11 @@
 
 ## Unreleased
 
+- resynchroniser `domain.md`, `issue-tracker.md` et `triage-labels.md` avec `setup-matt-pocock-skills` (`GLOSSARY.md` / `GLOSSARY-MAP.md`, commandes `gh`, sous-issues) et adopter `GLOSSARY.md` dans le template ;
+- ajouter une règle de resynchronisation des fichiers dérivés quand les skills d’un projet changent ;
+- corriger la notice tierce : les skills ne sont pas copiées par le template ;
+- préciser que les labels `wayfinder:*` ne sont créés que si `/wayfinder` est adopté ;
+
 ## v0.4.0 — 2026-10-08
 
 - rendre la version du guide indépendante de celle de la matrice de modèles dans le template ;

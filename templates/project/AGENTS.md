@@ -117,4 +117,4 @@ Vocabulaire par défaut (`needs-triage`, `needs-info`, `ready-for-agent`, `ready
 
 ### Domain docs
 
-Single-context : un `CONTEXT.md` + `docs/adr/` à la racine. See `docs/agents/domain.md`.
+Single-context : un `GLOSSARY.md` + `docs/adr/` à la racine. See `docs/agents/domain.md`.

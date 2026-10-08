@@ -34,6 +34,8 @@ Le dossier [`templates/project`](templates/project) contient les fichiers à cop
 - `docs/agents/domain.md` : consommation des documents métier et ADR ;
 - `docs/agents/THIRD_PARTY_NOTICES.md` : crédits et licence des fichiers adaptés de `mattpocock/skills`.
 
+Les fichiers dérivés de `mattpocock/skills` (`issue-tracker.md`, `triage-labels.md`, `domain.md`) restent en anglais, au plus près de leur source ; `workflow.md` décrit comment les resynchroniser quand les skills d’un projet changent.
+
 Les marqueurs `<À_ADAPTER>` sont intentionnels. Le bloc `BOOTSTRAP_REQUIRED` empêche l’implémentation produit tant que le plan de bootstrap n’a pas été validé puis exécuté.
 
 ## Démarrage d’un projet

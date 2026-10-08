@@ -94,7 +94,19 @@ Les labels `type:*` et `risk:*` décrivent la nature et le niveau de risque d’
 
 `wontfix` accompagne la fermeture d’une issue non traitée. Les correspondances avec le vocabulaire des skills sont dans `triage-labels.md`.
 
+Les labels `wayfinder:*` ne sont créés que si `/wayfinder` est adopté ; ils ne font pas partie du jeu minimal ci-dessus.
+
 Changer de label d’état fait partie du handoff : le commentaire qui l’accompagne nomme le rôle et l’action attendus. Dès qu’une PR existe, elle porte la suite selon `evidence.md`, et l’issue conserve son dernier état jusqu’à sa clôture.
+
+### Skills installées et fichiers dérivés
+
+`docs/agents/domain.md`, `issue-tracker.md` et `triage-labels.md` sont adaptés de la skill `setup-matt-pocock-skills` et décrivent les conventions que les skills installées lisent (par exemple `GLOSSARY.md`). Ils restent en anglais, au plus près de leur source. Quand les skills du projet sont installées ou mises à jour (changement de `skills-lock.json`), avant le commit :
+
+1. relire le CHANGELOG de `mattpocock/skills` entre l’ancienne et la nouvelle version, notamment ses consignes de migration ;
+2. comparer les fichiers dérivés et le vocabulaire de domaine du projet (noms des fichiers de glossaire, labels, commandes `gh`) à la source, et signaler les adaptations locales dans l’en-tête du fichier ;
+3. corriger l’écart dans le même changement, ou ouvrir une issue s’il dépasse la tranche.
+
+Une skill qui ne trouve pas un fichier attendu continue sans le signaler : l’écart ne se voit qu’à cette comparaison.
 
 ### Branches, commits et PR
 

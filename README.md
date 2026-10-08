@@ -2,9 +2,11 @@
 
 Workflow expérimental pour faire collaborer des agents de spécification, d’architecture, d’implémentation, de review et de sécurité avec des validations humaines explicites.
 
+Le point central est le passage de relais : permettre à un agent qui ne partage ni la conversation ni l’outil du précédent de reprendre le travail avec la source approuvée, les décisions déjà prises, les preuves et une prochaine étape claire. Les issues, pull requests et labels GitHub servent de mémoire commune. Le Verification Harness, la CI, la review indépendante et les human gates encadrent ce qui est produit.
+
 ## Statut
 
-Version `v0.3.0`. Cette version ajoute l’auto-gouvernance du guide : release stable comme point fixe, séparation explicite des agents et handoffs entre outils.
+Expérimental et évolutif. Dernière release : `v0.3.0` (voir le [CHANGELOG](CHANGELOG.md)). Le guide est éprouvé sur un seul projet, [`mon-garage-cars`](https://github.com/jeremyraffin/mon-garage-cars), et chaque version intègre les [retours d’expérience](#retours-dexpérience) qu’il produit.
 
 ## Principes
 
@@ -29,7 +31,8 @@ Le dossier [`templates/project`](templates/project) contient les fichiers à cop
 - `docs/agents/evidence.md` : preuves par commit, preflight externe et clôture ;
 - `docs/agents/issue-tracker.md` : conventions GitHub Issues ;
 - `docs/agents/triage-labels.md` : correspondance des labels de triage ;
-- `docs/agents/domain.md` : consommation des documents métier et ADR.
+- `docs/agents/domain.md` : consommation des documents métier et ADR ;
+- `docs/agents/THIRD_PARTY_NOTICES.md` : crédits et licence des fichiers adaptés de `mattpocock/skills`.
 
 Les marqueurs `<À_ADAPTER>` sont intentionnels. Le bloc `BOOTSTRAP_REQUIRED` empêche l’implémentation produit tant que le plan de bootstrap n’a pas été validé puis exécuté.
 
@@ -57,9 +60,25 @@ Ne commence aucune implémentation avant ma validation.
 
 Le guide référence cette skill sans la copier ni modifier son contenu. Si le client affiche les skills sous forme de pièces jointes, sélectionner `grill-with-docs` équivaut à écrire son nom dans la demande.
 
+## Exemples dans `mon-garage-cars`
+
+- [Issue #18](https://github.com/jeremyraffin/mon-garage-cars/issues/18) : handoff publié avant l’implémentation (source, résultat attendu, preuves exigées, décisions ouvertes, prochain rôle et modèle).
+- [PR #22](https://github.com/jeremyraffin/mon-garage-cars/pull/22) : implémentation par Claude Code, quatre passes de review indépendante par Codex et le traitement de chaque finding.
+- [PR #9](https://github.com/jeremyraffin/mon-garage-cars/pull/9) : bootstrap HIGH-RISK du projet.
+
+Ces exemples montrent aussi des écarts au guide, documentés dans le [retour 0002](docs/retours/0002-tranches-mon-garage-cars.md).
+
+## Limites actuelles
+
+- Le passage entre outils reste manuel : un agent prépare le handoff, puis l’humain ouvre la session suivante. L’orchestration automatique n’est pas encore évaluée.
+- Le rôle Release reste humain.
+- Le guide n’a été éprouvé que sur un projet, mené par une seule personne.
+- La matrice d’affectation des modèles n’a pas encore été révisée depuis sa version `v0.1`.
+- Les fichiers adaptés de `mattpocock/skills` restent en anglais.
+
 ## Faire évoluer ce guide
 
-Ce dépôt applique le workflow à sa propre maintenance. La dernière release stable gouverne la construction de la suivante, selon un point fixe enregistré avant le travail.
+Ce dépôt applique le workflow à sa propre maintenance. La dernière release stable gouverne la construction de la suivante, selon un point fixe enregistré avant le travail. Le but : un agent ne doit pas pouvoir modifier les règles qui évaluent son propre travail.
 
 [`AGENTS.md`](AGENTS.md) oriente vers la [gouvernance de maintenance](docs/maintenance/governance.md). Les [gabarits d’issue](.github/ISSUE_TEMPLATE/evolution.md) et de [PR](.github/pull_request_template.md) rendent visibles les rôles, agents/environnements, modèles et points fixes.
 
@@ -68,7 +87,8 @@ Ces règles racine servent à maintenir le guide. Seul le contenu de `templates/
 ## Retours d’expérience
 
 - [`docs/retours/0001-bootstrap-mon-garage-cars.md`](docs/retours/0001-bootstrap-mon-garage-cars.md) : lire pour comprendre les preuves ayant motivé les règles de bootstrap v0.2, sans reprendre la stack du projet comme défaut.
+- [`docs/retours/0002-tranches-mon-garage-cars.md`](docs/retours/0002-tranches-mon-garage-cars.md) : lire pour comprendre les écarts observés sur les premières tranches (human gate, labels, fin de tâche, modèle du reviewer) et les ajustements qui en découlent.
 
 ## Licence
 
-MIT. Les skills tierces ne sont pas incluses dans ce dépôt et conservent leurs propres licences.
+MIT. Les skills tierces ne sont pas incluses dans ce dépôt et conservent leurs propres licences. Les fichiers adaptés de [`mattpocock/skills`](https://github.com/mattpocock/skills) sont crédités dans [`templates/project/docs/agents/THIRD_PARTY_NOTICES.md`](templates/project/docs/agents/THIRD_PARTY_NOTICES.md).

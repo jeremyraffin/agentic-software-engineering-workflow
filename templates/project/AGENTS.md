@@ -3,7 +3,7 @@
 > **État : `BOOTSTRAP_REQUIRED`**  
 > Tant que ce bloc est présent, ne pas commencer l’implémentation produit et ne jamais exécuter les placeholders `<À_ADAPTER>`. Le Product/Spec Agent peut mener le grill. Après validation humaine du plan, l’agent de bootstrap peut adapter les fichiers mais conserve ce bloc. Il le retire uniquement après vérification, review indépendante, traitement des findings et autorisation humaine explicite selon `docs/agents/phases.md`. Les autres agents ne modifient pas ce fichier.
 
-Ce projet suit l’`Agentic Software Engineering Workflow v0.1`. Lire aussi :
+Ce projet suit l’`Agentic Software Engineering Workflow <À_ADAPTER: tag de la release copiée, par exemple v0.3.0>`. La matrice d’affectation des modèles possède sa propre version (`docs/agents/models.md`) : les deux versions sont indépendantes. Lire aussi :
 
 - `docs/agents/workflow.md` pour les règles propres au projet ;
 - `docs/agents/models.md` pour l’affectation des rôles ;
@@ -100,7 +100,10 @@ Le compte rendu final contient :
 - les fichiers ou comportements importants ;
 - les vérifications exécutées et leur résultat ;
 - les risques, limites ou décisions encore ouvertes ;
+- la prochaine phase, le rôle attendu et l’action qu’il doit mener, selon le handoff de `docs/agents/phases.md` ;
 - le lien vers la PR ou l’issue si applicable.
+
+Ce compte rendu est publié dans l’issue ou la PR qui porte la tâche. Une conversation d’agent reste un brouillon tant que son résultat n’y est pas publié (`docs/agents/evidence.md`). Exception : une tâche FAST sans issue ni PR est rendue dans la réponse à la demande, qui tient alors lieu de compte rendu durable.
 
 ## Agent skills
 

@@ -2,6 +2,14 @@
 
 ## Unreleased
 
+- rendre la version du guide indépendante de celle de la matrice de modèles dans le template ;
+- exiger la prochaine phase, le rôle attendu et l’action attendue dans la fin de tâche et le gabarit de PR ;
+- documenter les labels d’état et le prochain intervenant ;
+- préciser qu’un merge ne vaut pas human gate et exiger le modèle effectif du reviewer ;
+- consigner le retour 0002 sur les premières tranches de `mon-garage-cars` ;
+- créditer les fichiers adaptés de `mattpocock/skills` ;
+- exposer dans le README le statut expérimental, les limites actuelles et des exemples vérifiables.
+
 ## v0.3.0 — 2026-10-04
 
 - faire gouverner chaque évolution du guide par la dernière release stable antérieure à la tâche ;

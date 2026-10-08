@@ -6,7 +6,7 @@ Lire ce document avant un commit non-WIP, un passage en Review ou la clôture d�
 
 Toute preuve nomme le point fixe qu’elle couvre, idéalement le SHA du commit. Avant l’ouverture d’une PR, la preuve utile au passage de relais vit dans la demande ou l’issue qui porte la tâche. Dès qu’une PR existe, elle devient le dossier durable de la tâche et reprend les décisions antérieures qui doivent rester auditables.
 
-Un rapport local, un fichier non publié ou une conversation avec un agent est un brouillon. Il devient une preuve durable seulement lorsque son résultat est publié dans la PR sous forme de commentaire, review, mise à jour de la description ou lien vers un artefact conservé. Ne jamais publier de secret ni de donnée sensible.
+Un rapport local, un fichier non publié ou une conversation avec un agent est un brouillon, sauf pour une tâche FAST sans issue ni PR, où la réponse à la demande est la trace durable. Il devient une preuve durable seulement lorsque son résultat est publié dans la PR sous forme de commentaire, review, mise à jour de la description ou lien vers un artefact conservé. Ne jamais publier de secret ni de donnée sensible.
 
 ## Commit non-WIP
 

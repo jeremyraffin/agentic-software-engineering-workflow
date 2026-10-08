@@ -103,7 +103,7 @@ Le compte rendu final contient :
 - la prochaine phase, le rôle attendu et l’action qu’il doit mener, selon le handoff de `docs/agents/phases.md` ;
 - le lien vers la PR ou l’issue si applicable.
 
-Ce compte rendu est publié dans l’issue ou la PR qui porte la tâche. Une conversation d’agent reste un brouillon tant que son résultat n’y est pas publié (`docs/agents/evidence.md`).
+Ce compte rendu est publié dans l’issue ou la PR qui porte la tâche. Une conversation d’agent reste un brouillon tant que son résultat n’y est pas publié (`docs/agents/evidence.md`). Exception : une tâche FAST sans issue ni PR est rendue dans la réponse à la demande, qui tient alors lieu de compte rendu durable.
 
 ## Agent skills
 

@@ -73,7 +73,8 @@ type:refactor type:security   type:chore
 
 risk:fast     risk:standard   risk:high
 
-blocked       needs-decision
+blocked          needs-decision   needs-triage
+needs-info       ready-for-agent  ready-for-human
 ```
 
 Ajouter des labels `area:*` seulement quand ils deviennent utiles.

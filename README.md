@@ -88,6 +88,7 @@ Ces règles racine servent à maintenir le guide. Seul le contenu de `templates/
 
 - [`docs/retours/0001-bootstrap-mon-garage-cars.md`](docs/retours/0001-bootstrap-mon-garage-cars.md) : lire pour comprendre les preuves ayant motivé les règles de bootstrap v0.2, sans reprendre la stack du projet comme défaut.
 - [`docs/retours/0002-tranches-mon-garage-cars.md`](docs/retours/0002-tranches-mon-garage-cars.md) : lire pour comprendre les écarts observés sur les premières tranches (human gate, labels, fin de tâche, modèle du reviewer) et les ajustements qui en découlent.
+- [`docs/retours/0003-application-v0.4.0.md`](docs/retours/0003-application-v0.4.0.md) : lire pour comprendre ce que la publication de `v0.4.0` et sa migration dans `mon-garage-cars` ont montré (human gate non observé, identité des agents, modèle du reviewer, dérive des skills amont), sans règle nouvelle.
 
 ## Licence
 

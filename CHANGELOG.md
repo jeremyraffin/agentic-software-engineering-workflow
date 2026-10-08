@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+- consigner le retour 0003 sur l’application de `v0.4.0` ;
+
 ## v0.4.0 — 2026-10-08
 
 - rendre la version du guide indépendante de celle de la matrice de modèles dans le template ;

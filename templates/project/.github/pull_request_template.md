@@ -20,6 +20,12 @@
 
 <!-- Risques résiduels, limites connues, rollback et éléments hors périmètre. -->
 
+## Handoff
+
+- Next phase and role: `<phase et rôle attendus selon docs/agents/phases.md>`
+- Expected action: `<ce que le rôle suivant doit faire>`
+- Open decisions: `<décisions ouvertes / aucune>`
+
 ## Merge Danger
 
 **Door:** `<one-way / two-way>`

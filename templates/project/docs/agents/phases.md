@@ -9,7 +9,7 @@ Une phase se termine uniquement lorsque son critère de sortie est observable. A
 1. la source approuvée : demande, issue, spec ou ADR ;
 2. le résultat produit et les preuves de vérification ;
 3. les décisions ouvertes, risques et éléments hors périmètre ;
-4. la prochaine phase et le rôle attendu.
+4. la prochaine phase, le rôle attendu et l’action qu’il doit mener.
 
 Le rôle suivant vérifie ce handoff avant d’agir. Une entrée manquante renvoie la tâche à la phase précédente ; elle n’est pas complétée par supposition. Avant l’ouverture d’une PR, un human gate est matérialisé dans la demande ou l’issue qui porte la tâche. Dès qu’une PR existe, les preuves, reviews et validations humaines suivent `evidence.md`, et toute décision antérieure durable y est transcrite.
 

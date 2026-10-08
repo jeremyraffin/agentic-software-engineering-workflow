@@ -100,7 +100,10 @@ Le compte rendu final contient :
 - les fichiers ou comportements importants ;
 - les vérifications exécutées et leur résultat ;
 - les risques, limites ou décisions encore ouvertes ;
+- la prochaine phase, le rôle attendu et l’action qu’il doit mener, selon le handoff de `docs/agents/phases.md` ;
 - le lien vers la PR ou l’issue si applicable.
+
+Ce compte rendu est publié dans l’issue ou la PR qui porte la tâche. Une conversation d’agent reste un brouillon tant que son résultat n’y est pas publié (`docs/agents/evidence.md`).
 
 ## Agent skills
 
